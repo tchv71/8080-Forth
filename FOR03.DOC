@@ -1,0 +1,59 @@
+
+		lOGI^ESKIE OPERACII
+
+----------------------------------------------------------------
+   oBRA]ENIE		rEZULXTAT
+----------------------------------------------------------------
+
+ <Y> <X> =	<L> - PROWERKA RAWENSTWA DWUH ^ISEL
+			L= 0 ESLI Y<>X ;
+			L=-1 ESLI Y=X
+
+ <Y> <X> >	<L> - SRAWNENIE SO ZNAKOM
+			L= 0 ELSI Y<=X ;
+			L=-1 ESLI Y>X
+
+ <Y> <X> <	<L> - SRAWNENIE SO ZNAKOM
+			L= 0 ESLI Y=>X ;
+			L=-1 ESLI Y<X
+
+ <Y> <X> U>	<L> - SRAWNENIE BEZ ZNAKA
+			L= 0 ESLI Y<=X ;
+			L=-1 ESLI Y>X
+
+ <Y> <X> U<	<L> - SRAWNENIE BEZ ZNAKA
+			L= 0 ESLI Y=>X ;
+			L=-1 ESLI Y<X
+
+  <X> 0=	<L> - SRAWNENIE S NULEM :
+			L= 0 ESLI X<>0 ;
+			L=-1 ESLI X=0
+
+  <X> 0>	<L> - PROWERKA NA POLOVITELXNOSTX
+			L= 0 ESLI X<0 ;
+			L=-1 ESLI X=>0
+
+  <X> 0<	<L> -PROWERKA NA OTRICATELXNOSTX
+			L= 0 ESLI X=>0 ;
+			L=-1 ESLI X<0
+
+ <X> ?DUP	<X> <X> - ESLI X NE RAWEN NUL@
+		<0> - ESLI X=0
+
+ <X> NOT	<NOT(X)> - INWERSIQ 16-TI BITNOGO SLOWA
+
+ <Y> <X> OR	<X OR Y> - OPERACIQ  "ILI"  NAD 16-TI BITNYMI
+		SLOWAMI
+
+ <Y> <X> AND	<X AND Y>- OPERACIQ  "I"  NAD 16-TI BITNYMI
+		SLOWAMI
+
+ <Y> <X> XOR	<X XOR Y>- OPERACIQ  "ISKL@^A@]EE ILI"  NAD
+		16-TI BITNYMI SLOWAMI
+
+-----------------------------------------------------------------
+
+
+15.02.87
+
+

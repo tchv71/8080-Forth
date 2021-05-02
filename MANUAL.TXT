@@ -1,0 +1,56 @@
+    nastoq}aq disketka sodervit sledu`}ie fajly:
+
+TARGET.FRT   - ishodnyj tekst celewogo kompilqtora. wkl`~aetsq w sostaw
+                fort-sistemy pri pomo}i operatora INCLUDE.
+TARGET.COM   - fort-sistema s ottranslirowannym celewym kompilqtorom.
+SOURCE.FRT   - celewoj tekst fort-sistemy bez assemblera i redaktora, s
+                opredeleniqmi dlq raboty s fajlami. sodervit ssylki na
+                fajly  FT1.FRT, FT2.FRT, FT3.FRT, IOCPM.FRT, FILE.FRT
+SOURCEA.FRT  - to ve, no so wstroennym fort-assemblerom. sodervit
+                ssylki na fajly  FT1.FRT, FT2.FRT, FT3.FRT, IOCPM.FRT,
+                ASSEMBLR.FRT, FILE.FRT
+SOURV24.FRT  - TO ve, no dopolnitelxno podkl`~en drajwer dlq raboty s
+                interfejsom V24 na |wm "robotron-1715"
+FT1.FRT      - perwaq ~astx fort-sistemy
+FT2.FRT      - wtoraq ~astx fort-sistemy
+FT3.FRT      - tretxq ~astx fort-sistemy
+IOCPM.FRT    - ~astx fort-sistemy, otwe~a`}aq za wwod-wywod dlq CP/M
+ASSEMBLR.FRT - ~astx fort-sistemy, wstroennyj fort-assembler
+FILE.FRT     - ~astx fort-sistemy, rabota s fajlami w CP/M
+FRT.COM      - fort-sistema, polu~ennaq iz SOURCE.FRT
+FRTA.COM     - fort-sistema, polu~ennaq iz SOURCEA.FRT
+FRTV24.COM   - fort-sistema, polu~ennaq iz SOURV24.FRT
+CONV.FRT     - nabor programm dlq perewoda ishodnyh fort-tekstow
+               iz formata |krannyh fajlow w standartnyj tekstowyj format
+DISK.FRT     - nabor opredelenij dlq obra}eniq k disketke neposredstwenno
+               ~erez BIOS
+DISF.FRT     - tekst dlq DISFORTH
+PRINT.FRT    - prosmotr tekstowyh fajlow, soderva}ih uprawlq`}ie simwoly
+FILE.TXT     - opisanie dlq FILE.FRT
+MANUAL.TXT   - |tot tekst, kotoryj wy sej~as ~itaete
+
+                    KAK raspe~atatx FILE.FRT
+
+     fajl FILE.TXT sodervit bolx{ie i malenxkie russkie i bolx{ie
+latinskie bukwy. zagolowki wydelq`tsq virnym {riftom.
+     pri raspe~atke |togo fajla dolvno ispolxzowatxsq dwa alfawita.
+perwyj - kody 40-5e malenxkie russkie bukwy   `abcd....}~
+         kody 60-5e bolx{ie russkie bukwy     `abcd....}~
+wtoroj - kody 41-5a bolx{ie latinskie bukwy   ABCDE....YZ
+         kody 60-5e bolx{ie russkie bukwy     `abcd....}~
+     ishodno ustanowlen perwyj alfawit. dlq perekl`~eniq s odnogo
+alfawita na drugoj i obratno w tekst wweden simwol CTRL-Y (kod-19).
+zagolowki, podleva}ie virnoj pe~ati, wydelq`tsq s dwuh storon simwolom
+CTRL-D (kod-04). pri pe~ati ostalxnyh simwolow sleduet u~itywatx tolxko
+7 bit. star{ij bit sluvit dlq togo, ~toby movno bylo prawilxno perefor-
+matirowatx Tekst posle wnesennyh w nego izmenenij.
+     awtor dlq redaktirowaniq i rAspe~atki fajla FILE.TXT ispolxzowal
+redaktor-formatizator WORDSTAR 3.0.
+
+          O drajwere dlq interfejsa V24 dlq "robotrona-1715"
+
+     dannyj drajwer zaimstwowan iz programmy TLC. w forte FRTV24 on
+raspolagaetsq s adresa 106 do 2FF. w na~ale drajwera imeetsq wektor
+perehodow na otdelxnye podprogrammy drajwera. wwod ~erez V24 proishodit
+~erez prerywaniq. wwedennaq informaciq skladywaetsq w bufer.
+     ime`tsq sledu`}ie p/programmy:
